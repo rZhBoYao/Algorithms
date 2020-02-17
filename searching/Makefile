@@ -1,9 +1,12 @@
 CXX=g++
-CXXFLAGS=-std=c++17 -O3 -march=native -Wall -Wextra -Wpedantic
 name=searching
+CXXFLAGS=-std=c++17 -O3 -march=native -Wall -Wextra -Wpedantic -o $(name).out
+
+all:
+	$(CXX) $(CXXFLAGS) $(name).cpp
 
 run:
-	$(CXX) $(CXXFLAGS) -o $(name).out $(name).cpp
+	./$(name).out
 
 clean:
 	rm $(name).out
