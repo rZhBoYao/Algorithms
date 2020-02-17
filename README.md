@@ -1,6 +1,7 @@
 # Algorithms
 Implementation of some algorithms I find interesting in Introduction to Algoritms (CLRS) and Algorithms Unlocked  
 # Searching
+STL-style searching algorithms  
 [Linear Search](searching/searching.hpp#L1)  
 [Binary Search](searching/searching.hpp#L15)  
 # Selection
@@ -33,7 +34,7 @@ Maximum Flow
 # Red Black Tree
 Red Black Tree  
 # References
-https://github.com/llvm/llvm-project/blob/master/libcxx/include/algorithm  
-https://en.cppreference.com/w/cpp  
-CLRS  
-Algorithms Unlocked  
+[libcxx implementation](https://github.com/llvm/llvm-project/blob/master/libcxx/include/algorithm)  
+[cppreference.com](https://en.cppreference.com/w/cpp)  
+[Introduction to Algorithms, Third Edition](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)  
+[Algorithms Unlocked](https://mitpress.mit.edu/books/algorithms-unlocked)  
