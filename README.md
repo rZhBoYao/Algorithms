@@ -1,5 +1,5 @@
 # Algorithms
-Implementation of some algorithms I find interesting in Introduction to Algoritms (CLRS) and Algorithms Unlocked  
+Implementation of some algorithms I find interesting in _**Introduction to Algoritms (CLRS)**_ and _**Algorithms Unlocked**_  
 # Searching
 STL-style searching algorithms  
 [Linear Search](searching/searching.hpp#L1)  
