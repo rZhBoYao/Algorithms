@@ -1,14 +1,16 @@
 # Algorithms
 Implementation of some algorithms I find interesting in _**Introduction to Algoritms (CLRS)**_ and _**Algorithms Unlocked**_  
+Those with hyperlinks are done.
+# String Matching
+[The Knuth-Morris-Pratt Algorithm (KMP)](string_matching/kmp.hpp#L21)  
 # Searching
 STL-style searching algorithms  
 [Linear Search](searching/searching.hpp#L1)  
 [Binary Search](searching/searching.hpp#L15)  
-# Selection
-Selection in Expected Linear Time  
-Selection in Worst-Case Linear Time  
-# String Matching
-The Knuth-Morris-Pratt Algorithm (KMP)  
+# Dynamic Programming
+Longest Common Subsequence  
+Matrix-Chain Multiplication  
+Rod-Cutting  
 # Sorting
 Merge Sort  
 Heap Sort  
@@ -18,10 +20,9 @@ Bubble Sort
 Selection Sort  
 Counting Sort  
 Radix Sort  
-# Dynamic Programming
-Longest Common Subsequence  
-Matrix-Chain Multiplication  
-Rod-Cutting  
+# Selection
+Selection in Expected Linear Time  
+Selection in Worst-Case Linear Time  
 # Graph
 Breadth-First Search  
 Depth-First-Search  
