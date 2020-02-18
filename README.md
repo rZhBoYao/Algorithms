@@ -1,9 +1,8 @@
 # Algorithms
-This repository houses implementation of some algorithms I find interesting in _**Introduction to Algoritms (CLRS)**_ and _**Algorithms Unlocked**_ for pedagogical purpose and for fun. Those with hyperlinks are done.
+This repository houses implementation of some algorithms I find interesting in _**Introduction to Algoritms (CLRS)**_ and _**Algorithms Unlocked**_ for pedagogical purpose and for fun. Only those with hyperlinks are done.
 # String Matching
 [The Knuth-Morris-Pratt Algorithm (KMP)](string_matching/kmp.hpp#L21)  
 # Searching
-STL-style searching algorithms  
 [Linear Search](searching/searching.hpp#L1)  
 [Binary Search](searching/searching.hpp#L15)  
 # Dynamic Programming
