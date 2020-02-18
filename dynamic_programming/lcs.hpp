@@ -1,5 +1,6 @@
 // This file implements longest common sunsequence from CLRS (15.4) page 390 ~ 396
 
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>

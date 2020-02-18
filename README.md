@@ -7,7 +7,7 @@ STL-style searching algorithms
 [Linear Search](searching/searching.hpp#L1)  
 [Binary Search](searching/searching.hpp#L15)  
 # Dynamic Programming
-[Longest Common Subsequence](dynamic_programming/lcs.hpp#L10)  
+[Longest Common Subsequence](dynamic_programming/lcs.hpp#L11)  
 Matrix-Chain Multiplication  
 Rod-Cutting  
 # Sorting
