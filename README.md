@@ -10,6 +10,10 @@ STL-style searching algorithms
 [Longest Common Subsequence](dynamic_programming/lcs.hpp#L11)  
 Matrix-Chain Multiplication  
 Rod-Cutting  
+# Selection
+[Minimum and Maximum](selection/selection.hpp#L6)  
+[Selection in Expected Linear Time](selection/selection.hpp#L48)  
+Selection in Worst-Case Linear Time  
 # Sorting
 Merge Sort  
 Heap Sort  
@@ -19,9 +23,6 @@ Bubble Sort
 Selection Sort  
 Counting Sort  
 Radix Sort  
-# Selection
-Selection in Expected Linear Time  
-Selection in Worst-Case Linear Time  
 # Graph
 Breadth-First Search  
 Depth-First-Search  
