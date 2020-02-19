@@ -31,9 +31,8 @@ Shortest Path
 Prim's Algorithm  
 Kruskal's Algorithm  
 Maximum Flow  
-# Red Black Tree
-Red Black Tree  
 # References
+[A Tour of C++](http://www.stroustrup.com/tour2.html)  
 [libcxx implementation](https://github.com/llvm/llvm-project/blob/master/libcxx/include/algorithm)  
 [cppreference.com](https://en.cppreference.com/w/cpp)  
 [Introduction to Algorithms, Third Edition](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)  
