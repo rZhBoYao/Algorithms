@@ -18,6 +18,9 @@ inline void sort(std::vector<int>& v, Compare comp)
 #ifndef COMMON_UTILS_HPP
 #define COMMON_UTILS_HPP
 
+#include <algorithm>
+#include <iostream>
+#include <iterator>
 #include <random>
 
 class RandInt {
@@ -26,7 +29,7 @@ public:
   int operator()() { return dist(re); }
 
 private:
-  std::random_device              r;
+  std::random_device        r;
   std::default_random_engine      re;
   std::uniform_int_distribution<> dist;
 };
@@ -44,8 +47,6 @@ inline std::ostream& operator<<(std::ostream& out, const std::vector<int>& v) {
 //
 // an overload of std::sort for std::vector<int>
 //
-#include <algorithm>
-#include <iterator>
 inline void sort(std::vector<int>& v) {
   return std::sort(std::begin(v), std::end(v));
 }
