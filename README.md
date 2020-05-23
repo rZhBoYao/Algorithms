@@ -20,7 +20,7 @@ cmake --build .    # or "cmake --build . -- -j12" just to make sure
 cd ..
 ln -s build/compile_commands.json
 ```
-* Play with a debugger
+* Play with a debugger  
 You might need to type in your user passwaord on macOS Catilina
 ```SHELL
 # Fire up a debugger for fun. 
