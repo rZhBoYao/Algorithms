@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17.2)
 
-project(Algorithms
-  VERSION 0.1.1
+project(Algorithms-Playground
+  VERSION 0.8.7
   LANGUAGES CXX)
 
 
