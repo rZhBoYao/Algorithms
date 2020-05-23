@@ -1,3 +1,4 @@
+![build](https://github.com/rZhBoYao/Algorithms-Playground/workflows/build/badge.svg) ![clang-format](https://github.com/rZhBoYao/Algorithms-Playground/workflows/clang-format/badge.svg)
 # Algorithms-Playground
 This repository houses implementation of some algorithms I find interesting in **Introduction to Algoritms (CLRS)** and **Algorithms Unlocked** for pedagogical purpose and for fun. Only those with hyperlinks are done.
 ## Configure and Build 
