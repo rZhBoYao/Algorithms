@@ -29,7 +29,7 @@ public:
   int operator()() { return dist(re); }
 
 private:
-  std::random_device        r;
+  std::random_device              r;
   std::default_random_engine      re;
   std::uniform_int_distribution<> dist;
 };
