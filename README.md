@@ -1,21 +1,28 @@
-# Algorithms
-This repository houses implementation of some algorithms I find interesting in _**Introduction to Algoritms (CLRS)**_ and _**Algorithms Unlocked**_ for pedagogical purpose and for fun. Only those with hyperlinks are done.
-## Configure and Build
+# Algorithms-Playground
+This repository houses implementation of some algorithms I find interesting in **Introduction to Algoritms (CLRS)** and **Algorithms Unlocked** for pedagogical purpose and for fun. Only those with hyperlinks are done.
+## Configure and Build 
+Using [CMake](https://cmake.org/) and [Ninja](https://ninja-build.org/)
 ```SHELL
 mkdir buildRelease && cd buildRelease
 cmake .. -GNinja -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -DCMAKE_BUILD_TYPE=Release
 cmake --build .    # Ninja defaults to running commands in parallel
 ```
 ## Debugging & Having Fun
+* Build a debug build
 ```SHELL
 mkdir build && cd build
 cmake .. -GNinja -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -DCMAKE_BUILD_TYPE=Debug
 cmake --build .    # or "cmake --build . -- -j12" just to make sure
-
+```
+* Source code indexing with [clangd](https://clangd.llvm.org/)
+```SHELL
 # For clang-based tools (e.g. clangd) to find the compilation database
 cd ..
 ln -s build/compile_commands.json
-
+```
+* Play with a debugger
+You might need to type in your user passwaord on macOS Catilina
+```SHELL
 # Fire up a debugger for fun. 
 # For example:
 lldb -- build/src/StringMatching/KMPTest
