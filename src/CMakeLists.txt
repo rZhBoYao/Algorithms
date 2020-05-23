@@ -1,0 +1,5 @@
+add_subdirectory(Common)
+add_subdirectory(DynamicProgramming)
+add_subdirectory(Searching)
+add_subdirectory(Selection)
+add_subdirectory(StringMatching)

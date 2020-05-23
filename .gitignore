@@ -1,36 +1,12 @@
-# Prerequisites
-*.d
+# OS X specific files.
+.DS_store
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Nested build directory
+/build*
+/compile_commands.json
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-*_test
-
-
+# VSCode config files.
 .vscode
+
+# clangd index
+.clangd

@@ -1,4 +1,9 @@
 BasedOnStyle: LLVM
+AlignConsecutiveMacros: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlwaysBreakTemplateDeclarations: Yes
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+IncludeBlocks:   Regroup
+KeepEmptyLinesAtTheStartOfBlocks: false
 PointerAlignment: Left
-ColumnLimit: 0
-SpaceAfterTemplateKeyword: false

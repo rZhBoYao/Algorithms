@@ -15,16 +15,19 @@ inline void sort(std::vector<int>& v, Compare comp)
 //
 // a wrapper for random number generator
 //
+#ifndef COMMON_UTILS_HPP
+#define COMMON_UTILS_HPP
+
 #include <random>
 
-class Rand_int {
+class RandInt {
 public:
-  Rand_int(int low, int high) : re(r()), dist{low, high} {}
+  RandInt(int low, int high) : re(r()), dist{low, high} {}
   int operator()() { return dist(re); }
 
 private:
-  std::random_device r;
-  std::default_random_engine re;
+  std::random_device              r;
+  std::default_random_engine      re;
   std::uniform_int_distribution<> dist;
 };
 
@@ -32,8 +35,9 @@ private:
 // an overload of operator<< for std::vector<int>
 //
 inline std::ostream& operator<<(std::ostream& out, const std::vector<int>& v) {
-  for (const auto& v : v)
+  for (const auto& v : v) {
     out << v << ' ';
+  }
   return out;
 }
 
@@ -46,7 +50,9 @@ inline void sort(std::vector<int>& v) {
   return std::sort(std::begin(v), std::end(v));
 }
 
-template<typename Compare>
+template <typename Compare>
 inline void sort(std::vector<int>& v, Compare comp) {
   return std::sort(std::begin(v), std::end(v), comp);
 }
+
+#endif // COMMON_UTILS_HPP
