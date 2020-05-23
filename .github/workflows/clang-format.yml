@@ -1,4 +1,4 @@
-name: clang-format
+name: test-clang-format
 
 on: [push]
 
