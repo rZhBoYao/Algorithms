@@ -29,19 +29,19 @@ You might need to type in your user passwaord on macOS Catilina
 lldb -- build/src/StringMatching/KMPTest
 ```
 ## String Matching
-[The Knuth-Morris-Pratt Algorithm (KMP)](src/StringMatching/KMP.cpp#L23-L45)  
+[The Knuth-Morris-Pratt (KMP) Algorithm](src/StringMatching/KMP.cpp#L23-L45)  
 ## Searching
 [Linear Search](src/Searching/Searching.hpp#L4-L19)  
 [Binary Search](src/Searching/Searching.hpp#L21-L44)  
 ## Dynamic Programming
 [Longest Common Subsequence](src/DynamicProgramming/LCS.cpp#L11-L27)  
-Matrix-Chain Multiplication  
-Rod-Cutting  
+Matrix-Chain Multiplication (WIP)  
+Rod-Cutting (WIP)  
 ## Selection
 [Minimum and Maximum](src/Selection/Selection.cpp#L9-L55)  
 [Selection in Expected Linear Time](src/Selection/Selection.cpp#L57-L83)  
-Selection in Worst-Case Linear Time  
-## Sorting
+Selection in Worst-Case Linear Time (WIP)  
+## Sorting (WIP)
 Merge Sort  
 Heap Sort  
 Quick Sort  
@@ -50,7 +50,7 @@ Bubble Sort
 Selection Sort  
 Counting Sort  
 Radix Sort  
-## Graph
+## Graph (WIP)
 Breadth-First Search  
 Depth-First-Search  
 Topological Sort  
