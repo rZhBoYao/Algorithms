@@ -13,7 +13,7 @@ cmake --build .    # Ninja defaults to running commands in parallel
 ```SHELL
 mkdir build && cd build
 cmake .. -GNinja -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -DCMAKE_BUILD_TYPE=Debug
-cmake --build .    # or "cmake --build . -- -j12" just to make sure
+cmake --build .    # or "cmake --build . -- -j12" just to be sure
 ```
 * Source code indexing with [clangd](https://clangd.llvm.org/)
 ```SHELL
