@@ -15,6 +15,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install Ninja
       uses: llvm/actions/install-ninja@master
+    - run: pip install --upgrade cmake
     - run: mkdir build && cd build && cmake .. -GNinja -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -DCMAKE_BUILD_TYPE=Release
     - run: cmake --build build
   
