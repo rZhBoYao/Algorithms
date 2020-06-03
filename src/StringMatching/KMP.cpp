@@ -44,7 +44,8 @@ std::vector<size_t> kmpMatcher(const std::string& t, const std::string& p) {
   return matched;
 }
 
-void printOccurrence(const std::string& t, const std::string& p,
+void printOccurrence(const std::string&         t,
+                     const std::string&         p,
                      const std::vector<size_t>& positions) {
   if (positions.empty()) {
     std::cout << "Pattern not found.\n\n";

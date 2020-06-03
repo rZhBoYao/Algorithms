@@ -1,4 +1,11 @@
-Checks: '*,-modernize-use-trailing-return-type,-*-magic-numbers,-fuchsia-*,-google-runtime-references,-readability-implicit-bool-conversion,-readability-else-after-return'
+Checks: >
+  *,
+  -modernize-use-trailing-return-type,
+  -*-magic-numbers,-fuchsia-*,
+  -google-runtime-references,
+  -readability-implicit-bool-conversion,
+  -readability-else-after-return,
+FormatStyle:     file
 CheckOptions:
   - key:             readability-identifier-naming.ClassCase
     value:           CamelCase
@@ -15,8 +22,8 @@ CheckOptions:
   - key:             readability-identifier-naming.VariableCase
     value:           camelBack
   - key:             readability-identifier-naming.IgnoreMainLikeFunctions
-    value:           1
+    value:           '1'
   - key:             readability-function-size.StatementThreshold
-    value:           50
+    value:           '50'
   - key:             readability-function-size.ParameterThreshold
-    value:           5
+    value:           '5'

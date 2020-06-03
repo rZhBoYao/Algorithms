@@ -66,9 +66,11 @@ int randomizedSelect(std::vector<int>& a, int p, int r, int i) {
   RandInt rnd{p, r};
   auto    pivot = a[rnd()];
 
-  std::partition(a.begin() + p, a.begin() + r + 1,
-                 [=](int a) { return a <= pivot; });
-  int q = std::partition(a.begin() + p, a.begin() + r + 1,
+  std::partition(a.begin() + p, a.begin() + r + 1, [=](int a) {
+    return a <= pivot;
+  });
+  int q = std::partition(a.begin() + p,
+                         a.begin() + r + 1,
                          [=](int a) { return a < pivot; }) -
           a.begin();
 

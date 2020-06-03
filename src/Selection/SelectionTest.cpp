@@ -3,8 +3,8 @@
 #include <iostream>
 
 int main() {
-  std::vector<int> v = {7,  23, 11, 13, 29, 19, 21, 5,
-                        43, 9,  37, 15, 25, 31, 87};
+  std::vector<int> v =
+      {7, 23, 11, 13, 29, 19, 21, 5, 43, 9, 37, 15, 25, 31, 87};
 
   auto [min, max] = findMinMax(v);
 
